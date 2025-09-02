@@ -1,5 +1,3 @@
-import React from "react";
-
 const Marquee = () => {
   const messages = [
     "Fast Delivery Across the City!",
@@ -10,7 +8,7 @@ const Marquee = () => {
   ];
 
   return (
-    <div className="overflow-hidden bg-[#D6DAC8] text-black py-2 w-1/2 rounded-2xl p-4 mx-auto my-4">
+    <div className="overflow-hidden bg-[#D6DAC8] text-black border-2 py-2 w-1/2 rounded-2xl p-4 mx-auto my-4">
       <div className="whitespace-nowrap animate-marquee flex space-x-10 py-2">
         {messages.map((msg, index) => (
           <span
