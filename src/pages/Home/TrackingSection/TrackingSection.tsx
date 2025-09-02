@@ -11,16 +11,19 @@ const TrackingSection = () => {
 
   const handleTrack = () => {
     if (!trackingId) {
-      toast.warn("Ei bro, etho hyper keno? Relax e tracking ID daw 😎", {
-        position: "top-center",
-        autoClose: 4000,
-        theme: "colored",
-      });
+      toast.warn(
+        "Hey bro, why so hyper? Relax and enter the right  Tracking ID 😎",
+        {
+          position: "top-center",
+          autoClose: 4000,
+          theme: "colored",
+        }
+      );
       return;
     }
 
     toast.success(
-      `Ei bro, product pawar etho tarahura kiser! Details tomake email e bole diyechi, email check koro 📧`,
+      "Hey bro, why are you rushing to get the product! I've sent all the details to your email 📧, check it out.",
       {
         position: "top-center",
         autoClose: 5000,
@@ -63,7 +66,7 @@ const TrackingSection = () => {
           value={trackingId}
           onChange={(e) => setTrackingId(e.target.value)}
           placeholder="Enter Tracking ID"
-          className="w-full md:w-2/3 px-4  py-3 rounded-lg  border-gray-300 border-b-black text-black"
+          className="w-full md:w-2/3 px-4 py-3 rounded-lg border border-black text-black focus:outline-none focus:ring-1 "
         />
         <button
           onClick={handleTrack}
