@@ -32,7 +32,7 @@ const Services = () => {
     <section className="bg-[#D6DAC8] py-20 px-6 md:px-20 rounded-r-full">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-[#1F2937]">Our Services</h2>
-        <p className="text-[#1F2937]/80 mt-4 max-w-2xl mx-auto">
+        <p className="text-black mt-4 max-w-2xl mx-auto">
           We provide reliable and fast parcel delivery services tailored to your
           needs.
         </p>

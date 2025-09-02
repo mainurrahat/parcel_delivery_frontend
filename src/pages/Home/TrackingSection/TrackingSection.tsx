@@ -70,7 +70,7 @@ const TrackingSection = () => {
         />
         <button
           onClick={handleTrack}
-          className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition"
+          className="flex items-center gap-2 bg-blue-400 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition"
         >
           Track
           <ArrowRight size={20} />

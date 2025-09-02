@@ -87,7 +87,7 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-lg transition">
+          <button className="px-6 py-3 bg-blue-400 hover:bg-blue-700 text-white font-semibold rounded-full shadow-lg transition">
             {slides[current].btnText}
           </button>
         </motion.div>
