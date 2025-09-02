@@ -83,7 +83,7 @@ const Navbar = () => {
           className="flex items-center space-x-2 text-xl font-bold tracking-wide text-gray-900"
         >
           <Package size={24} />
-          <span>ParcelManager</span>
+          <span>Trackify</span>
         </Link>
 
         {/* Desktop Menu */}

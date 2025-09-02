@@ -13,7 +13,7 @@ const Footer = () => {
             className="flex items-center space-x-2 text-xl font-bold text-gray-900"
           >
             <Package size={24} />
-            <span>ParcelManager</span>
+            <span>Trackify</span>
           </Link>
           <p className="mt-2 text-sm text-gray-700">
             Reliable parcel tracking and management made simple. Manage, track,
@@ -94,7 +94,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="bg-[#D6DAC8] text-center text-sm py-3 mt-4">
-        © {new Date().getFullYear()} ParcelManager. All rights reserved.
+        © {new Date().getFullYear()} Trackify. All rights reserved.
       </div>
     </footer>
   );
